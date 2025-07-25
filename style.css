@@ -1,0 +1,60 @@
+
+   
+    
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto 109px auto;
+}
+
+.menu-items{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    gap: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+  
+
+}
+.Home{
+    color: #252432;
+    display: block;
+}
+.shop{
+    color: #8987A1;
+    display: block;
+}
+.About-us{
+    color: #8987A1;
+    display: block;
+}
+.cart{
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive section for mobile device */
+@media screen and (max-width:576px){
+    .Home,.shop ,.About-us{
+        display: none;
+    }
+}
