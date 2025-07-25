@@ -41,6 +41,35 @@
 .cart{
     color: #000000;
 }
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 80%;
+    margin: 109px auto;
+   
+}
+.banner-text h1{
+    font-weight: bold;
+    font-size: 3rem;
+   font-family: "Noto Serif", serif;
+   color: #000000;
+}
+.fresh-flower{
+    color:#E95A08 ;
+}
+.banner-text p{
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+.banner-text{
+    width: 100%;
+    align-items: end;
+}
+.banner-image{
+    width: 100%;
+    align-items: end;
+}
 
 
 
@@ -56,5 +85,8 @@
 @media screen and (max-width:576px){
     .Home,.shop ,.About-us{
         display: none;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
     }
 }
