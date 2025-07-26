@@ -55,7 +55,7 @@
    font-family: "Noto Serif", serif;
    color: #000000;
 }
-.fresh-flower{
+.fresh-flower,.our{
     color:#E95A08 ;
 }
 .banner-text p{
@@ -70,6 +70,81 @@
 .banner-image{
     width: 100%;
     align-items: end;
+}
+.plants-section{
+    width: 80%;
+    margin:109px auto;
+}
+.plants-heading{
+    text-align: center;
+}
+.plants-heading h1{
+    font-weight: bold;
+    font-size: 3.1rem;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 16px;
+
+}
+.plants-heading p{
+     color: rgba(0, 0, 0, 0.5);
+     font-family: "Inter", sans-serif;
+     font-size: 22px;
+     
+
+}
+.card-container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    margin-top: 49px;
+    gap: 15px;
+   
+   
+    
+    }
+.card{
+    
+    width: 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.card-text{
+    text-align: center;
+   
+}
+.card-text p{
+    font-weight: medium;
+    font-size: 1.3rem;
+    color: #111111;
+     font-family: "Inter", sans-serif;
+
+}
+.usd{
+    font-weight: bold;
+     font-family: "Inter", sans-serif;
+}
+.btn{
+    padding: 8px 26px;
+    background-color: #E95A08;
+    color: white;
+    margin-top: 5px;
+    width: 240px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: semibold ;
+    font-size: 1rem;
+
+
+}
+
+.card-image img{
+ width: 100%;
+  
 }
 
 
@@ -89,5 +164,10 @@
     }
     .banner-section{
         flex-direction: column-reverse;
+    }
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
 }
