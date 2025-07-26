@@ -148,6 +148,53 @@
 }
 
 
+.plants-lover-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    gap: 100px;
+   
+}
+
+#trusted-badge{
+    width: 200px;
+    height: 200px;
+    margin-left:310px ;
+    margin-bottom: -130px;
+    position: relative;
+    
+}
+
+.flower-store{
+    width: 100%;
+    
+   
+    
+}
+.plants-lover-text h1{
+    color: #000000;
+    font-weight: bold;
+    font-size: 3.12rem;
+     font-family: "Noto Serif", serif;
+     margin-bottom: 20px;
+}
+.plants-lover-text ul{
+    color: rgba(0, 0, 0, 0.5);
+     font-family: "Inter", sans-serif;
+}
+.plants-lover-text ul li {
+    margin-bottom: 20px;
+    
+}
+
+
+  
+   
+   
+
+
 
 
 
@@ -170,4 +217,14 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+
+    .plants-lover-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #trusted-badge{
+        visibility: hidden;
+    }
+    
 }
