@@ -138,6 +138,7 @@
     font-family: "Inter", sans-serif;
     font-weight: semibold ;
     font-size: 1rem;
+    
 
 
 }
@@ -338,6 +339,36 @@
     
 }
 
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    align-items: start;
+}
+
+.footer-logo p{
+    color: rgba(0, 0, 0, 0.5);
+     font-family: "Inter", sans-serif;
+     font-size: 22px;
+
+}
+
+.list-one li , .list-two li{
+    color: rgba(107, 114, 128, 1);
+    margin-top: 20px;
+}
+
+.logo img{
+   margin-right: 20px;
+}
+.logo{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
 
     
    
@@ -378,6 +409,10 @@
     #trusted-badge{
         visibility: hidden;
     }
+
+    .plants-lover-text ul{
+        text-align: left;
+    }
     .latest-image-container{
         display: flex;
         flex-direction: column;
@@ -392,5 +427,13 @@
     }
     .join-form input[type="email"] , input[type="submit"]{
         width: 321px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        margin-top: 20px;
     }
 }
