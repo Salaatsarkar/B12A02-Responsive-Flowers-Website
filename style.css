@@ -405,6 +405,11 @@
         flex-direction: column-reverse;
     }
 
+    .banner-image img{
+        width:450px;
+        
+    }
+
     .card-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
