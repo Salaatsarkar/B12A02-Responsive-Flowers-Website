@@ -1,11 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 
-   
-    
+
+
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    max-width: 80%;
     margin: 30px auto 109px auto;
 }
 
@@ -13,7 +17,6 @@
      display: flex;
     justify-content: space-between;
     align-items: center;
-   
     gap: 20px;
 }
 .navbar ul li{
@@ -45,7 +48,7 @@
     display: flex;
     justify-content: space-between;
     align-items: end;
-    width: 80%;
+    max-width: 80%;
     margin: 109px auto;
    
 }
@@ -70,6 +73,10 @@
 .banner-image{
     width: 100%;
     align-items: end;
+}
+
+.banner-image img{
+     width: 100%;
 }
 .plants-section{
     width: 80%;
@@ -397,17 +404,30 @@
 
 
 /* responsive section for mobile device */
-@media screen and (max-width:576px){
+@media screen and (max-width: 576px){
     .Home,.shop ,.About-us{
         display: none;
     }
+
+    .navbar{
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px ;
+    }
+    .menu-items{
+        gap: 10px;
+    }
     .banner-section{
         flex-direction: column-reverse;
+        margin: auto;
     }
 
     .banner-image img{
-        width:450px;
+        width:300px;
         
+    }
+    .banner-image{
+        max-width: 80%;
     }
 
     .card-container{
